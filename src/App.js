@@ -11,7 +11,7 @@ import Banner from './components/shared/Header/Banner/Banner';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Navbar />
       <Banner />
       <WhatWeDo />
