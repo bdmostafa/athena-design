@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import WhatWeDo from './components/WhatWeDo/WhatWeDo';
+import Achievements from './components/Achievements/Achievements';
+import Footer from './components/shared/Footer/Footer';
+import PriceCard from './components/PriceCard/PriceCard';
+import StayRunningCTA from './components/StayRunningCTA/StayRunningCTA';
+import GetStartedCTA from './components/GetStartedCTA/GetStartedCTA';
+import Navbar from './components/shared/Header/Navbar/Navbar';
+import Banner from './components/shared/Header/Banner/Banner';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Banner />
+      <WhatWeDo />
+      <StayRunningCTA />
+      <Achievements />
+      <PriceCard />
+      <GetStartedCTA />
+      <Footer />
     </div>
   );
 }
