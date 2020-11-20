@@ -60,3 +60,9 @@
   font-weight: 700;
   color: #40285cfa;
 }
+
+@media (max-width: 767px) {
+    .what-we-do-area {
+      background: none;
+    }
+  }
