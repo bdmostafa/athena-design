@@ -1,0 +1,53 @@
+.getStarted h4{
+   font-family:Yeseva One;
+    font-size: 40px;
+   fill: #0D052E;
+   opacity: 1;
+   
+}
+.getStarted p{
+    font-size: 24px;
+    
+    opacity: 0.8;
+    fill: #0D052E;
+}
+ form .input-group{
+  justify-content: center;
+  opacity: 1;
+ 
+}
+
+.inputText{
+    border:none;
+    background-color: #FFFFFF;
+    box-shadow:5px;
+    width: 650px;
+    height: 60px;
+    padding:10px;
+  }
+  .inputBtn{
+    border:none;
+    background: linear-gradient(to right, #20DFB1, #0DB8DE);
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    padding:10px;
+    margin-left: -155px;
+  }
+  
+  @media screen and (max-width: 800px) {
+      .inputText{
+      width: 100%; 
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .inputBtn{
+      border:none;
+    background: linear-gradient(to right, #20DFB1, #0DB8DE);
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    padding:10px;
+    margin-left: -105px;
+  }
+}
