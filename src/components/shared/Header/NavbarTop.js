@@ -46,7 +46,7 @@ const NavbarTop = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link default-btn" href="#">
+              <a class="nav-link default-btn" style={{color: 'white !important'}} href="#">
                 Contact Us
               </a>
             </li>

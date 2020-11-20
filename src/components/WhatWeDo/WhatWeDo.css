@@ -1,0 +1,61 @@
+.area-bg {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.area-bg::before {
+  content: "";
+  position: absolute;
+  top: 200px;
+  right: -700px;
+  width: 100%;
+  height: 200vh;
+  background: url(../../images/area-bg1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.what-we-do-area {
+  height: 100%;
+  width: 100%;
+  background: url(../../images/area-bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 5000;
+  padding-bottom: 60px;
+}
+
+.heading {
+  font-family: "Yeseva One", cursive;
+  font-size: 35px;
+  font-weight: 700;
+  color: #0d052e;
+}
+
+.service {
+  padding: 10px 10px;
+  border-radius: 60px 0px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.service:hover {
+  padding: 10px 10px;
+  -webkit-box-shadow: 0px 0px 20px 2px #dbf0f8;
+  box-shadow: 0px 0px 20px 2px #dbf0f8;
+  border-radius: 60px 0px;
+  background: white;
+  z-index: 9999;
+}
+.service img {
+  padding-top: 20px;
+  width: 100px;
+}
+.service h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #40285cfa;
+}
