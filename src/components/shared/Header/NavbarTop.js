@@ -1,8 +1,9 @@
 import React from "react";
-import logo from '../../../../images/logo.png';
-import './Navbar.css';
+import logo from '../../../images/logo.png';
+import './Header.css';
+import toggleIcon from '../../../images/menu.png';
 
-const NavbarHeader = () => {
+const NavbarTop = () => {
   return (
       <nav class="navbar navbar-expand-lg navbar-top">
         <a class="navbar-brand" href="#">
@@ -18,7 +19,7 @@ const NavbarHeader = () => {
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon">
-            <img  alt="" />
+            <img  alt="athena menu" src={toggleIcon} />
           </span>
         </button>
 
@@ -45,7 +46,7 @@ const NavbarHeader = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link customButton" href="#">
+              <a class="nav-link default-btn" href="#">
                 Contact Us
               </a>
             </li>
@@ -55,4 +56,4 @@ const NavbarHeader = () => {
   );
 };
 
-export default NavbarHeader;
+export default NavbarTop;

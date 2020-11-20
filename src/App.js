@@ -6,21 +6,19 @@ import Footer from './components/shared/Footer/Footer';
 import PriceCard from './components/PriceCard/PriceCard';
 import StayRunningCTA from './components/StayRunningCTA/StayRunningCTA';
 import GetStartedCTA from './components/GetStartedCTA/GetStartedCTA';
-import Navbar from './components/shared/Header/Navbar/Navbar';
-import Banner from './components/shared/Header/Banner/Banner';
+import Header from './components/shared/Header/Header';
 
 function App() {
   return (
-    <div className="container">
-      <Navbar />
-      <Banner />
+    <>
+      <Header />
       <WhatWeDo />
       <StayRunningCTA />
       <Achievements />
       <PriceCard />
       <GetStartedCTA />
       <Footer />
-    </div>
+    </>
   );
 }
 
