@@ -1,0 +1,33 @@
+.footer img {
+    width: 172px;
+    height: 118px;
+}
+.social img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 29px;
+    height: 29px;
+    color: #848685;
+  
+}
+.list {
+    list-style: none;
+    font-size: 20px;
+    
+}
+.list li{
+    fill: #464646;
+    opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .list-item  {
+    
+ padding-top: 20px;
+ }
+}
+@media screen and (max-width: 800px) {
+    .footer {
+  justify-content:center;
+ }
+}
